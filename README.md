@@ -6,13 +6,13 @@ MSP432 Line-Following Robot Final Project
 **Lab Section:** Section 1  
 **Lab Date:** 04/05/2025
 
-## 📌 Project Overview
+##  Project Overview
 
 This project implements a fully autonomous line-following robot using the MSP432 microcontroller and RSLK MAX. The robot navigates a track by interpreting signals from infrared (IR) sensors, while also reacting to bumper switch inputs. It uses pulse-width modulation (PWM) to control motors and provides visual feedback through onboard LEDs and RGB LED indicators.
 
 ---
 
-## 🛠 Features
+##  Features
 
 - **FSM-based line-following logic** using an 8-element IR sensor array
 - **PWM motor control** for differential drive and maneuverability
@@ -24,7 +24,7 @@ This project implements a fully autonomous line-following robot using the MSP432
 
 ---
 
-## 🧩 Hardware Components
+##  Hardware Components
 
 - MSP432P401R LaunchPad
 - TI RSLK MAX 
@@ -36,7 +36,7 @@ This project implements a fully autonomous line-following robot using the MSP432
 
 ---
 
-## ⚙️ System Behavior
+##  System Behavior
 
 - **Standby Mode:**  
   - LED1 blinks while the system awaits bumper input.
@@ -61,7 +61,7 @@ This project implements a fully autonomous line-following robot using the MSP432
 
 ---
 
-## 🔁 Main Functions
+##  Main Functions
 
 - `main()` — Controls overall behavior, mode switching, and loop execution  
 - `LineFollowing()` — FSM implementation to follow the line based on IR sensor conditions  
@@ -73,7 +73,7 @@ This project implements a fully autonomous line-following robot using the MSP432
 
 ---
 
-## 🧠 Sensor States (Defined as `sensorCondition` enum)
+##  Sensor States (Defined as `sensorCondition` enum)
 
 - `allLeft`, `moreLeft`, `equal`, `moreRight`, `allRight`, `LOST`, `STANDBY`
 
@@ -81,7 +81,7 @@ These values are used to determine robot steering and RGB LED output.
 
 ---
 
-## 🔧 Setup and Compilation
+##  Setup and Compilation
 
 This project uses **TI's DriverLib** and must be compiled using **Code Composer Studio** with MSP432P4xx support.
 
@@ -92,7 +92,7 @@ This project uses **TI's DriverLib** and must be compiled using **Code Composer 
 
 ---
 
-## 📈 Performance Notes
+##  Performance Notes
 
 - Optimal delays were determined through empirical testing for stability and sensor responsiveness.
 - Sensor "LOST" handling includes a counter to initiate reversal and 180-degree corrections.
@@ -100,7 +100,7 @@ This project uses **TI's DriverLib** and must be compiled using **Code Composer 
 
 ---
 
-## 📃 License
+##  License
 
 This project is for educational purposes under EEL4742 at Florida State University.  
 All rights reserved © 2025 Alejandro Caro & Joshua Romeo.
