@@ -1,7 +1,7 @@
 MSP432 Line-Following Robot Final Project
 
 **Authors:** Alejandro Caro & Joshua Romeo  
-**Course:** EEL4742 - Embedded Systems  
+**Course:** EEL4742 - Advanced Microprocessor-Based System Design
 
 ##  Project Overview
 
