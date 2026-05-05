@@ -100,6 +100,8 @@ This project uses **TI's DriverLib** and must be compiled using **Code Composer 
 
 ##  Demonstration
 
+- Video Demonstration : https://www.youtube.com/shorts/3xNNGDgtfRI](https://www.youtube.com/shorts/cpWZYGJThPU)
+
 
 
 ---
